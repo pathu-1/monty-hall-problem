@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+    font-family: 'Manrope', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: #222f3e;
+    color: #f5f6fa;
+}
+
+.home_heading{
+    height: 10rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.door{
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.door_closed{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00a8ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 2px #0214297d;
+}
+
+.door_opened{
+    display: none;
+}
+
+.door img{
+    width: 10rem;
+}
+
+.game_area_doors{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30rem;
+    gap: 3rem;
+}
